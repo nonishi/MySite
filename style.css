@@ -97,7 +97,7 @@ a{
   text-align: center;
 }
 
-.images-box{
+.images{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 90px;
@@ -162,4 +162,221 @@ a{
 
 .image:nth-child(n+4){
   margin-bottom: 0;
+}
+
+#future{
+  display: flex;
+  justify-content: center;
+}
+
+.future-container{
+  width: 980px;
+  text-align: center;
+}
+
+.future-title{
+  margin-top: 90px;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+}
+
+.future-title::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -8px;
+}
+
+.future-text{
+  margin: 30px 0;
+}
+
+.strength{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.st-box{
+  width: 320px;
+  height: auto;
+}
+
+.st-i{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.st-title{
+  font-size: 20px;
+  color: #000000;
+}
+
+.st-text{
+  text-align: left;
+  margin-top: 10px;
+}
+
+#profile{
+  display: flex;
+  justify-content: center;
+  background-color: #ECEFF1;
+}
+
+.profile-container{
+  width: 1024px;
+  text-align: center;
+}
+
+.profile-title{
+  margin-top: 90px;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+}
+
+.profile-title::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -8px;
+}
+
+.profile-text{
+  margin: 30px 0;
+}
+
+.profile-show{
+  display: flex;
+  text-align: left;
+  margin-bottom: 90px;
+}
+
+.profile-img{
+  width: 514px;
+  display: flex;
+  justify-content: center;
+}
+
+.my-profile{
+  width: 514px;
+}
+
+.my-img{
+  width: 250px;
+  height: 250px;
+  background-image: url(images/my-icon.jpg);
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skill{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.show-text{
+  color: #000000;
+  font-size: 16px;
+}
+
+#contact{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-container{
+  text-align: center;
+}
+
+.contact-title{
+  margin-top: 90px;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-title::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -8px;
+}
+
+.contact-text{
+  margin: 30px 0;
+}
+
+.contact-box{
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.means{
+  width: 50%;
+}
+
+.social{
+  width: 50%;
+}
+
+.mail{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.tel{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+a{
+  color: #000000;
+}
+
+.sns{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.s-icon{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+footer{
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.copyright{
+  font-size: 16px;
+  line-height: 60px;
+  color: #FAFAFA;
+  text-align: center;
 }
