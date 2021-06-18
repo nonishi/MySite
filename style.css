@@ -355,7 +355,7 @@ a{
   margin-bottom: 5px;
 }
 
-a{
+.address,.tel-num{
   color: #000000;
 }
 
@@ -379,4 +379,50 @@ footer{
   line-height: 60px;
   color: #FAFAFA;
   text-align: center;
+}
+
+@media screen and (max-width:767px){
+
+　body{
+  width: 90%;
+  }
+
+  .heading{
+    height: 50px;
+  }
+
+  .logo{
+    height: 50px;
+  }
+
+  .header-container{
+    height: 50px;
+  }
+
+  .list-item{
+    display: none;
+  }
+
+  #mv{
+    background-image: url(images/code.png);
+    background-position: center;
+  }
+
+  .images{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .image:nth-child(odd){
+    display: none;
+  }
+
+  .image:last-child{
+    margin-bottom: 90px;
+  }
 }
